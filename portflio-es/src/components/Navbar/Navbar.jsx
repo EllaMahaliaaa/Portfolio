@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 
 import styles from './Navbar.module.css';
 import { getImageUrl } from '../../utils';
@@ -11,7 +11,7 @@ export const Navbar = () => {
             </a>
             <div className={styles.menu}>
                 <img 
-                    className={styles.menuBtn} 
+                    className={styles.menuBtn}
                     src={getImageUrl("nav/menuIcon.png")} 
                     alt="menu-button"
                 />

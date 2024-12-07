@@ -55,9 +55,11 @@
     }
 
     .menuItems {
-        display: none;
         flex-direction: column;
         align-items: center;
         gap: 13px;
+        border-radius: 10px;
+        background: rgb(122, 122, 124);
+        
     }
 }
